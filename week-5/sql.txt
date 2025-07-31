@@ -1,0 +1,16 @@
+INSERT INTO `profile`(`id_student`, `fname`, `lname`, `major`) 
+VALUES ('4561','ชื่อเอ','นามสกุลเอ','วิทยาการคอมพิวเตอร์')
+
+INSERT INTO `profile`(`id_student`, `fname`, `lname`, `major`) 
+VALUES ('4562','ชื่อบี','นามสกุลบี','ชีววิทยา')
+
+INSERT INTO `profile`(`id_student`, `fname`, `lname`, `major`) 
+VALUES ('4563','ชื่อซี','นามสกุลซี','เคมี')
+
+DELETE FROM `profile` WHERE id_student = '4562'
+
+UPDATE `profile` SET `id_student`='4563' 
+WHERE major = 'คณิตศาสตร์'
+
+
+
